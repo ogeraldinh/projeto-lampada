@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191B1D;
+}
+.luz {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    gap: 20px;
+    margin: auto;
+    padding: auto;
+    
+}
+
+.luz button {
+    height: 40px;
+    width: 100px;
+    border-radius:15px;
+    background-color: #dcdcdc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.luz button:hover {
+    background-color: #fff;
+    cursor: pointer;
+    
+}
